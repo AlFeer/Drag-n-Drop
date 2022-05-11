@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(66, 103, 10);
+    height: 100%;
+    width: 100%;
+}
+
+.square1 {
+    background-color: rgba(151, 21, 221, 0.386);
+    height: 100px;
+    width: 100px;
+    cursor: grab;
+    position: relative;
+}
+
+.square2 {
+    background-color: chocolate;
+    height: 100px;
+    width: 100px;
+    cursor: grab;
+    position: relative;
+}
+
+.square1:active {
+    cursor: grabbing;
+    border-radius: 50%;
+}
+
+.square2:active {
+    cursor: grabbing;
+    border-radius: 50%;
+}
+
+.area {
+    background-color: lightsteelblue;
+    height: 450px;
+    width: 450px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
